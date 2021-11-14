@@ -28,6 +28,16 @@
       "value": "",
       "required": false
     },
+    "AWS_S3_REGION_NAME": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
+    "AWS_S3_ENDPOINT_URL": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
     "AWS_ACCESS_KEY_ID": {
       "description": "",
       "value": "",
@@ -44,11 +54,7 @@
     "postdeploy": "python manage.py migrate && python manage.py populatedb --createsuperuser --withoutimages"
   },
   "addons": [
-    "heroku-postgresql:hobby-dev",
-    "heroku-redis:hobby-dev",
-    "cloudamqp:lemur",
-    "sendgrid:starter",
-    "scheduler:standard"
+    "heroku-postgresql:hobby-dev"
   ],
   "buildpacks": [
     {
