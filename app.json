@@ -51,7 +51,7 @@
     "ENABLE_ACCOUNT_CONFIRMATION_BY_EMAIL": "False"
   },
   "scripts": {
-    "postdeploy": "python manage.py migrate && python manage.py populatedb --createsuperuser --withoutimages"
+    "postdeploy": "python manage.py migrate && python manage.py populatedb --createsuperuser"
   },
   "addons": [
     "heroku-postgresql:hobby-dev"
