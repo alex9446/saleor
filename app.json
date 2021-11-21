@@ -28,6 +28,7 @@
       "value": "",
       "required": false
     },
+    "AWS_DEFAULT_ACL": "public-read",
     "AWS_S3_REGION_NAME": {
       "description": "",
       "value": "",
