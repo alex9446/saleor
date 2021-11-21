@@ -28,6 +28,11 @@
       "value": "",
       "required": false
     },
+    "AWS_STORAGE_BUCKET_NAME": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
     "AWS_DEFAULT_ACL": "public-read",
     "AWS_S3_REGION_NAME": {
       "description": "",
